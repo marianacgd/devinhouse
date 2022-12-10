@@ -1,6 +1,6 @@
 h1{
    
-    font-style: verdana; /*fonte*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*fonte*/
     font-size: 20px; /*tamanho da fonte*/
     color: brown;  /*cor da fonte*/
     text-align: center; /*alinhamento do titulo h1*/
@@ -11,10 +11,11 @@ h1{
 }
 
 body{
+    padding-top: 60px;
     background-color: #FFF970; /*cor de fundo alterada */
 }
 
-p{
+p {
     font-size: 14px; /*altera tamanho da fonte de paragrafo*/
 }
 
@@ -41,5 +42,45 @@ div#imagens img{
 }
 
 iframe{
+    display: block;
     max-width: 100%;
+}
+
+nav{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 60px;
+    display: flex;
+    padding: 0 10px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img#logo{
+    display: block;
+    margin: 0;
+    width: 120px;
+    height: 60px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li a{
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: orangered;
+    transition: color 300ms;
+}
+
+nav ul li a:hover{ 
+    background-color: rebeccapurple;
+    color: brown;
 }

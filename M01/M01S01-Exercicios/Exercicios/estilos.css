@@ -4,6 +4,10 @@ h1{
     font-size: 20px; /*tamanho da fonte*/
     color: brown;  /*cor da fonte*/
     text-align: center; /*alinhamento do titulo h1*/
+    background-image:url(Imagens/fundoamarelo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 body{
@@ -26,14 +30,16 @@ a#botao img{
     height: 20px;
 }
 
-.column{
-    float: left;
-    width: 32.7%;
-    padding: 5px;
+div#imagens{
+    width: 100%;
+    display: flex;
 }
 
-.row::after{
-    content: "";
-    clear: both;
-    display: table;
+div#imagens img{
+    max-width: calc(100% / 3);
+    display: block;
+}
+
+iframe{
+    max-width: 100%;
 }

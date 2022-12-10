@@ -1,0 +1,39 @@
+h1{
+   
+    font-style: verdana; /*fonte*/
+    font-size: 20px; /*tamanho da fonte*/
+    color: brown;  /*cor da fonte*/
+    text-align: center; /*alinhamento do titulo h1*/
+}
+
+body{
+    background-color: #FFF970; /*cor de fundo alterada */
+}
+
+p{
+    font-size: 14px; /*altera tamanho da fonte de paragrafo*/
+}
+
+a#botao button{
+    border-radius: 10px; /*arredondamento button*/
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+a#botao img{
+    height: 20px;
+}
+
+.column{
+    float: left;
+    width: 32.7%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}

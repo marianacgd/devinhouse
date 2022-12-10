@@ -1,5 +1,14 @@
+html,
+body,
+div,
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 h1{
-   
     font-family: Verdana, Geneva, Tahoma, sans-serif; /*fonte*/
     font-size: 20px; /*tamanho da fonte*/
     color: brown;  /*cor da fonte*/
@@ -11,8 +20,15 @@ h1{
 }
 
 body{
+    min-height: 100vh;
     padding-top: 60px;
     background-color: #FFF970; /*cor de fundo alterada */
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
 }
 
 p {
@@ -83,4 +99,10 @@ nav ul li a{
 nav ul li a:hover{ 
     background-color: rebeccapurple;
     color: brown;
+}
+
+footer{
+    background-color: white;
+    color: brown;
+    text-align: center;
 }

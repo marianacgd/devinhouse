@@ -1,0 +1,61 @@
+html,
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+  background-image: url(https://i.pinimg.com/originals/8c/87/4f/8c874fb2ab4b328fbd2015b1a2f2201d.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Exemplo de seletor por "tagName" */
+h2 {
+  width: 50%;
+  margin: 30px;
+  /* Exemplo de propriedade shorthand
+     vários valores podem ser passados */
+  border: 3px solid rgb(20, 123, 208);
+  padding: 6px;
+}
+
+/* Exemplo de seletor por "id" */
+#subtitulo {
+  /* Exemplo de priorização de estilo com important*/
+  background-color: aquamarine !important;
+}
+
+/* Exemplo de seletor por "class" */
+.destaque {
+  background-color: bisque;
+}
+
+.destaque span {
+  background-color: lime;
+}
+
+.destaque span span {
+  background-color: yellow;
+}
+
+/* Tira o sublinhado de links ou outros textos */
+a {
+  text-decoration: none;
+}
+
+/* Tira as bolinhas da lista */
+/*
+ul {
+  list-style: none;
+}
+*/
+
+ul>li.item>p {
+  color: blue;
+}

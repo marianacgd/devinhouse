@@ -98,3 +98,44 @@ const soma = numeros.reduce((acc, elemento) => {
   return acc;
 },0); */
 console.log('Soma com reduce', soma);
+
+//Objeto
+
+const aluno = {
+  id: 1,
+  nome: 'Thais',
+  turmas: [
+    {
+      id: 1,
+      nome: 'Audaces',
+    },
+    {
+      id: 2,
+      nome: 'DevInHouse',
+    },
+  ],
+  teste: 'teste',
+};
+//Deletar propriedade objeto
+delete aluno.teste;
+
+console.log('Objeto com prop deletada', aluno);
+
+//Adicionar metodo
+aluno.imprimeTurma = function () {
+  console.log(this.turmas.map((turma) => turma.nome).join()); //this tras informacao q contem
+};
+
+aluno.imprimeTurma();
+
+//Obter nomes das chaves de um objeto
+const chaves = Object.keys(aluno);
+console.log('Object.keys', chaves);
+
+chaves.forEach((chave) => {
+  console.log(chave, aluno[chave]);
+});
+
+//Obter chave e valor objeto
+const chaveValor = Object.entries(aluno);
+console.log('Object.entries', chaveValor[2][1][0]);

@@ -14,12 +14,12 @@ const tituloName = document.getElementsByName('titulo');
 tituloName[1].style.color = 'blue';
 
 //GetByClass
-const tituloErros = document.getElementsByClassName('erro');
-for (let index = 0; index < tituloErros.length; index++) {
-  tituloErros[index].style.fontSize = '12px';
+const titulosErros = document.getElementsByClassName('erro');
+for (let index = 0; index < titulosErros.length; index++) {
+  titulosErros[index].style.fontSize = '12px';
 }
 
-//Array.from(tituloErros).forEach((element) => {
+//Array.from(titulosErros).forEach((element) => {
 //  element.style.fontSize = '12px';
 //});
 
@@ -50,7 +50,7 @@ container.appendChild(paragrafo);
 
 document.body.insertBefore(paragrafo2, container);
 
-//Some elemento
+//Some elemento'anonimo'
 //const elementRemover = document.getElementById('titulo1');
 //elementRemover.style.display = 'none';
 
@@ -70,7 +70,7 @@ const div2 = document.createElement('div');
 
 const span = document.createElement('img');
 span.src = 'https://cdn-icons-png.flaticon.com/512/5231/5231019.png';
-span.setAttribute('widt', 100);
+span.setAttribute('width', 100);
 
 div2.appendChild(span);
 teste.appendChild(div2);

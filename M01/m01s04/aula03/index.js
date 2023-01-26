@@ -27,11 +27,12 @@ link.href = 'https://www.google.com.br/'; //refencia para o link
 link.innerText = 'link';
 document.body.appendChild(link); //Add elemento criado 'link' no DOM
 
+//Criacao de Funcao(Arrow function) para cadastrar
 const cadastrar = (event) => {
   console.log(event);
 };
-const cadastros = [];
-const formCadastro = document.getElementById('cadastro');
+const cadastros = []; //Criacao do Array cadastros
+const formCadastro = document.getElementById('cadastro'); //Obtem 'cadastro'
 formCadastro.onsubmit = (event) => {
   event.preventDefault();
   //console.log(event);

@@ -31,23 +31,25 @@
   </div>
 </nav>
 <div class="row">
-  <div class="col-sm-6" style="width: 20%;">
+  <div class="col-sm-6" style="width: 350px;">
     <div class="card">
       <img src="{{ foto }}" style="height: 280px;"/>
       <div class="card-body">
         <h5 class="card-title">{{ titulo }}</h5>
         <p class="card-text">{{ texto }}</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <p class="card-text">{{infos}}</p>
+        <a href="{{foto}}" target="_blank"class="btn btn-primary">Abrir Imagem</a>
       </div>
     </div>
   </div>
-  <div class="col-sm-6" style="width: 20%;">
+  <div class="col-sm-6" style="width: 350px;">
     <div class="card" >
       <img src="{{ fotoLuke }}" style="height: 280px;"/>
       <div class="card-body">
         <h5 class="card-title">{{ tituloLuke }}</h5>
         <p class="card-text">{{ textoLuke }}</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <p class="card-text">{{infosLuke}}</p>
+        <a href="{{fotoLuke}}" target="_blank" class="btn btn-primary">Abrir Imagem</a>
       </div>
     </div>
   </div>

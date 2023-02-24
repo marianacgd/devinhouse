@@ -4,14 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from "@angular/common/http";
-import { FilhoComponent } from '../components/filho/filho.component';
-import { ConsumindoServicoComponent } from './consumindo-servico/consumindo-servico.component'
+import { FuncionarioJsonServerComponent } from './funcionario-json-server/funcionario-json-server.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FilhoComponent,
-    ConsumindoServicoComponent
+    FuncionarioJsonServerComponent
   ],
   imports: [
     BrowserModule,

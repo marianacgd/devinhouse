@@ -12,6 +12,14 @@ nav{
     height: 80px;
 }
 
+.lista{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
 .input-busca{
     width: 350px;
     height: 30px;

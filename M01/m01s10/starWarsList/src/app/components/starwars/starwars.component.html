@@ -8,11 +8,7 @@
     class="input-busca"
     placeholder="Digite o nome do personagem a ser buscado"
   />
-
-  <ul>
-    <li *ngFor="let item of lista">
-      {{item.lista.nome}}
-    </li>
-  </ul>
-
+  <div class="lista">
+    <app-card *ngFor="let item of personagens" [personagem]="item"></app-card>
+  </div>
 </div>

@@ -1,0 +1,15 @@
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\bin\Debug\net7.0\meuPrimeirPrograma.exe
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\bin\Debug\net7.0\meuPrimeirPrograma.deps.json
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\bin\Debug\net7.0\meuPrimeirPrograma.runtimeconfig.json
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\bin\Debug\net7.0\meuPrimeirPrograma.dll
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\bin\Debug\net7.0\meuPrimeirPrograma.pdb
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\obj\Debug\net7.0\meuPrimeirPrograma.csproj.AssemblyReference.cache
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\obj\Debug\net7.0\meuPrimeirPrograma.GeneratedMSBuildEditorConfig.editorconfig
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\obj\Debug\net7.0\meuPrimeirPrograma.AssemblyInfoInputs.cache
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\obj\Debug\net7.0\meuPrimeirPrograma.AssemblyInfo.cs
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\obj\Debug\net7.0\meuPrimeirPrograma.csproj.CoreCompileInputs.cache
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\obj\Debug\net7.0\meuPrimeirPrograma.dll
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\obj\Debug\net7.0\refint\meuPrimeirPrograma.dll
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\obj\Debug\net7.0\meuPrimeirPrograma.pdb
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\obj\Debug\net7.0\meuPrimeirPrograma.genruntimeconfig.cache
+C:\repositorios\devinhouse\M02\M02S02\aula02\meuPrimeirPrograma\obj\Debug\net7.0\ref\meuPrimeirPrograma.dll

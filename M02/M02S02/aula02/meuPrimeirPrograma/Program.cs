@@ -70,21 +70,110 @@ internal class Program
         //Console.WriteLine((2 + 2) * 2);
 
         //EXEMPLO 05
-        
-        Console.WriteLine("Digite o primeiro número: ");
-        int num1 = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("Digite o segundo número: ");
-        int num2 = int.Parse(Console.ReadLine());
+        // Console.WriteLine("Digite o primeiro número: ");
+        // int num1 = int.Parse(Console.ReadLine());
 
-        if (num1 > num2) {
-            Console.WriteLine("O primeiro número é MAIOR!");
-        } else {
-            Console.WriteLine("O segundo número é MAIOR!");
-        }
+        // Console.WriteLine("Digite o segundo número: ");
+        // int num2 = int.Parse(Console.ReadLine());
+
+        // if (num1 > num2) {
+        //     Console.WriteLine("O primeiro número é MAIOR!");
+        // } else {
+        //     Console.WriteLine("O segundo número é MAIOR!");
+        // }
 
         // Console.WriteLine(1 == 1);
         // Console.WriteLine(1 >= 1);
+
+
+        //EXEMPLO 06
+
+        // Console.WriteLine("Digite um número para verificar se ele é impar ou par: ");
+        // int numero = int.Parse(Console.ReadLine());
+
+        // if (numero % 2 == 0 ) {
+        //     Console.WriteLine("O número é par!");
+        // } else {
+        //     Console.WriteLine("O número é impar!");
+        // }
+
+        // Console.WriteLine(((2 * 4) + 10) >= 10); 
+
+
+        //DESAFIO CALCULADORA
+
+        //Variaveis
+        double numero1, numero2;
+        char operacao;
+
+        Console.WriteLine("Olá! Seja bem-vinda(o) a Calculadora!\n");
+
+        do
+        {
+            Console.WriteLine("Agora, escolha uma operação: \n");
+
+            Console.WriteLine("+ : SOMAR");
+            Console.WriteLine("- : SUBTRAIR");
+            Console.WriteLine("* : MULTIPLICAR");
+            Console.WriteLine("/ : DIVIDIR");
+            Console.WriteLine("? : PARA SAIR");
+
+            //Entradas
+            Console.Write("\nDigite a operação escolhida: ");
+            operacao = char.Parse(Console.ReadLine());
+
+            if (operacao != '?')
+            {
+                Console.WriteLine("Digite o primeiro número: ");
+                numero1 = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Digite o segundo número: ");
+                numero2 = int.Parse(Console.ReadLine());
+
+                //Processametnos/Operaçoes
+                // if (operacao == '+') {
+                //     Console.WriteLine("soma");
+                // } else if (operacao == '-') {
+                //     Console.WriteLine("subtracao");
+                // } else if (operacao == '*') {
+                //     Console.WriteLine("multiplicacao");
+                // } else if (operacao == '/') {
+                //     Console.WriteLine("divisao");
+                // } else if (operacao == '?') {
+                //     Console.WriteLine("sair");
+                // } else {
+                //     Console.WriteLine("Opção Inválida! Digite uma opção disponível no menu.");
+                // }
+
+                //Menu com Switch Case
+                switch (operacao)
+                {
+                    case '+':
+                        Console.WriteLine("Soma: " + (numero1 + numero2));
+                        break;
+                    case '-':
+                        Console.WriteLine("Subtração: " + (numero1 - numero2));
+                        break;
+                    case '*':
+                        Console.WriteLine("Multiplicação: " + (numero1 * numero2));
+                        break;
+                    case '/':
+                        Console.WriteLine("Divisão: " + (numero1 / numero2));
+                        break;
+                    // case '?':
+                    //     Console.WriteLine("Saindo do sistema...");
+                    //     break;
+                    default:
+                        Console.WriteLine("ERRO! ");
+                        break;
+                }
+
+            }
+
+        } while (operacao != '?');
+
+        Console.WriteLine("\nObrigado por usar a calculadora!");
 
     }
 }

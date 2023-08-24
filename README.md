@@ -131,4 +131,4 @@ Introdução, Queries, Arguments, Schemas, Aliases, Fragments, Variables e Mutat
 
 ### **Semana 11 e 12** - Projeto 3
 
-Front-End e Back-end em Squads.
+Front-End e Back-end em Squads

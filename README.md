@@ -1,8 +1,6 @@
-# devinhouse
+# DEVinHouse - Turma Audaces.v2
 
-Arquivos do DEVinHouse
-
-# Módulo 01
+## **Módulo 01**
 
 ### **Semana 01** - HTML + CSS
 
@@ -55,7 +53,7 @@ Semana Soft-Skills
 
 LAB-Clothing-Collection - [Click aqui para ver o Repositório](https://github.com/marianacgd/LAB-Clothing-Colletion)
 
-# Módulo 02
+## **Módulo 02**
 
 ### **Semana 01** - Scrum
 
@@ -93,7 +91,7 @@ Integração com BD, Entity Framework e introdução ao CRUD
 
 LAB-Clothing-Collection-Backend - [Click aqui para ver o Repositório](https://github.com/marianacgd/LAB-Clothing-Colletion-Backend)
 
-# Módulo 03
+## **Módulo 03**
 
 ### **Semana 01** - .net Core
 

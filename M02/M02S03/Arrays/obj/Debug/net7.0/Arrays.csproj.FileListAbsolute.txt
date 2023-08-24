@@ -1,0 +1,15 @@
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\bin\Debug\net7.0\Arrays.exe
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\bin\Debug\net7.0\Arrays.deps.json
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\bin\Debug\net7.0\Arrays.runtimeconfig.json
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\bin\Debug\net7.0\Arrays.dll
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\bin\Debug\net7.0\Arrays.pdb
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\obj\Debug\net7.0\Arrays.csproj.AssemblyReference.cache
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\obj\Debug\net7.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\obj\Debug\net7.0\Arrays.AssemblyInfoInputs.cache
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\obj\Debug\net7.0\Arrays.AssemblyInfo.cs
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\obj\Debug\net7.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\obj\Debug\net7.0\Arrays.dll
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\obj\Debug\net7.0\refint\Arrays.dll
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\obj\Debug\net7.0\Arrays.pdb
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\obj\Debug\net7.0\Arrays.genruntimeconfig.cache
+C:\Repositorio\mariana\devinhouse\M02\M02S03\Arrays\obj\Debug\net7.0\ref\Arrays.dll
